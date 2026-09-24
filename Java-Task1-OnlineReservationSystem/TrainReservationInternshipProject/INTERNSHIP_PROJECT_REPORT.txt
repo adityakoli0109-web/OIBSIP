@@ -1,0 +1,117 @@
+TRAIN RESERVATION SYSTEM
+INTERNSHIP PROJECT REPORT
+
+1. PROJECT TITLE
+Train Reservation System
+
+2. INTRODUCTION
+The Train Reservation System is a desktop application developed using Java Swing,
+JDBC and MySQL. The application provides a simple interface for managing train
+ticket reservations. A user can log in, search for a train, enter passenger and
+journey details, book a ticket, receive a PNR number and cancel a booking using
+the PNR.
+
+3. OBJECTIVES
+- To understand Java GUI development using Swing.
+- To connect a Java application with MySQL using JDBC.
+- To perform database operations using SQL.
+- To implement login authentication.
+- To implement ticket booking and cancellation.
+- To practice input validation and exception handling.
+- To understand a complete small-scale application workflow.
+
+4. TECHNOLOGIES USED
+Java 17
+Java Swing
+JDBC
+MySQL
+Maven
+MySQL Connector/J
+
+5. MAIN MODULES
+Login Module:
+Checks username and password from the users table.
+
+Dashboard:
+Provides navigation to booking, cancellation, logout and exit.
+
+Reservation Module:
+Searches a train number, displays its train name and stores passenger and
+journey information in the reservations table.
+
+Cancellation Module:
+Fetches reservation information using a PNR and removes the reservation after
+confirmation.
+
+Database Module:
+DBConnection.java provides the JDBC connection used by the application.
+
+6. DATABASE TABLES
+users
+- id
+- username
+- password
+
+trains
+- train_number
+- train_name
+
+reservations
+- id
+- pnr
+- passenger_name
+- train_number
+- train_name
+- class_type
+- journey_date
+- source
+- destination
+
+7. WORKING
+The application starts with the login screen. After successful authentication,
+the dashboard is displayed. From the dashboard, the user can book or cancel a
+ticket.
+
+During booking, the train number is checked against the trains table. The train
+name is then displayed automatically. After validation, reservation details are
+inserted into MySQL and a PNR is generated.
+
+For cancellation, the PNR is entered and the existing booking is fetched.
+The user confirms the cancellation and the corresponding database record is
+deleted.
+
+8. VALIDATION
+The application checks:
+- Empty fields
+- Numeric train number
+- Existing train number
+- Selected class
+- Date format
+- Different source and destination
+- Existing PNR during cancellation
+
+9. SECURITY PRACTICES
+Database queries use PreparedStatement instead of directly joining user input
+into SQL queries. This reduces the risk of SQL injection for the implemented
+operations.
+
+10. LIMITATIONS
+This is a desktop student project. It does not include online payment,
+real-time railway availability, seat allocation, SMS/email notifications or
+live railway APIs.
+
+11. FUTURE SCOPE
+Possible future improvements include:
+- Seat availability management
+- Passenger history
+- Admin panel
+- Ticket printing
+- Better password storage
+- User registration
+- Search by source and destination
+- Reports and booking history
+
+12. CONCLUSION
+The project demonstrates the development of a small database-driven Java
+application. It combines GUI programming, JDBC connectivity, SQL operations,
+validation and exception handling in one practical application.

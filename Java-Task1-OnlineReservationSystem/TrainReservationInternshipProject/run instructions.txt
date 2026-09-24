@@ -1,0 +1,67 @@
+RUN INSTRUCTIONS - TRAIN RESERVATION SYSTEM
+
+STEP 1 - REQUIREMENTS
+Install:
+- JDK 17+
+- MySQL Server
+- VS Code with Extension Pack for Java (or another Java IDE)
+- Maven (optional if Maven is already integrated into the IDE)
+
+STEP 2 - DATABASE
+1. Open MySQL Workbench.
+2. Open database/train_reservation.sql.
+3. Run the complete SQL script.
+4. It creates:
+   train_reservation
+   users
+   trains
+   reservations
+
+STEP 3 - DATABASE PASSWORD
+Open:
+src/DBConnection.java
+
+Change:
+YOUR_PASSWORD
+
+to the password of your local MySQL root account.
+
+STEP 4 - OPEN PROJECT
+Open the folder containing pom.xml, not only the src folder.
+
+STEP 5 - RUN
+Open:
+src/Main.java
+
+Run the program.
+
+Default login:
+Username: admin
+Password: admin123
+
+STEP 6 - TEST BOOKING
+Use a train number such as:
+1001
+1002
+1003
+1004
+1005
+
+Enter a valid date in:
+yyyy-MM-dd
+
+After booking, a PNR is displayed.
+
+STEP 7 - TEST CANCELLATION
+Open Cancel Ticket.
+Enter the PNR.
+Click Fetch.
+Click Confirm Cancellation.
+Confirm the deletion.
+
+COMMON PROBLEM
+If the program shows a database connection error:
+- Check that MySQL Server is running.
+- Check database name.
+- Check MySQL username/password.
+- Check that the SQL script was executed.
