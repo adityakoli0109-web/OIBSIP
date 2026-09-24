@@ -2,7 +2,7 @@ TRAIN RESERVATION SYSTEM
 Internship Project
 
 Technology:
-- Java 17
+- Java 25
 - Java Swing
 - JDBC
 - MySQL
@@ -24,7 +24,7 @@ Username: admin
 Password: admin123
 
 SETUP
-1. Install JDK 17 or newer.
+1. Install JDK 25 or newer.
 2. Install MySQL Server.
 3. Create/import the database using:
    database/train_reservation.sql

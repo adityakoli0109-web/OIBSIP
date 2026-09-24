@@ -1,0 +1,491 @@
+2026-09-24T16:33:41.225Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-09-24T16:33:41.226Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft"
+  ],
+  "projectPath": "d:\\OIBSIP"
+}}).
+2026-09-24T16:33:41.227Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:33:41.336Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25.0.3\n   📁 Path: C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin\n   🏷️ Source: PATH\n\n2. Java 26.0.1\n   📁 Path: C:\\Users\\Dell\\.jdks\\openjdk-26.0.1\\bin\n   🏷️ Source: others\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-09-24T16:33:41.337Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-09-24T16:33:44.475Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:33:44.476Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "precheckCompleted",
+  "status": "succeeded",
+  "phase": "precheck",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  },
+  "message": "Maven Java project detected; upgrading compiler target from Java 17 to Java 25. Java 25.0.3 is installed."
+}}).
+2026-09-24T16:33:44.477Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:33:44.479Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:33:44.491Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:33:44.492Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:33:44.674Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:33:44.675Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:33:44.676Z [INFO] Project java version: 8
+2026-09-24T16:33:44.872Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at d:\OIBSIP. There are child Maven/Gradle projects detected: "Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject". Would you like to use one of them instead?
+2026-09-24T16:33:44.893Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:33:44.996Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:33:45.003Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:33:57.159Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:33:57.160Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Generating Java 25 upgrade plan."
+}}).
+2026-09-24T16:33:57.161Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:33:57.161Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:33:57.162Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:33:57.241Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:33:57.242Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Generating Java 25 upgrade plan."
+}}).
+2026-09-24T16:33:57.242Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:33:57.244Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:33:57.244Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:34:14.907Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-09-24T16:34:14.908Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260924163341",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Apache\\maven",
+    "C:\\Program Files\\Maven"
+  ],
+  "includeVersion": true
+}}).
+2026-09-24T16:34:14.911Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:34:14.912Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-09-24T16:34:14.914Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-09-24T16:34:15.060Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-09-24T16:34:15.061Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Apache\\maven",
+    "C:\\Program Files\\Maven"
+  ],
+  "includeVersion": true
+}}).
+2026-09-24T16:34:15.061Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:34:19.841Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.16\n   📁 Path: C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin\n   🏷️ Source: PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-09-24T16:34:19.842Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-09-24T16:34:39.241Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:34:39.242Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Plan reviewed: Java 25 compiler target and documentation updates only; baseline skipped because JDK 17 is unavailable."
+}}).
+2026-09-24T16:34:39.242Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:34:39.243Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:34:39.244Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:34:39.378Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:34:39.379Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Plan reviewed: Java 25 compiler target and documentation updates only; baseline skipped because JDK 17 is unavailable."
+}}).
+2026-09-24T16:34:39.379Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:34:39.382Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:34:39.384Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:34:42.673Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-09-24T16:34:42.674Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260924163341",
+  "autoExecute": true
+}}).
+2026-09-24T16:34:42.675Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:34:42.675Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///d:/OIBSIP/.github/modernize/java-upgrade/20260924163341/plan.md)"
+}}).
+2026-09-24T16:34:42.676Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-09-24T16:34:42.758Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-09-24T16:34:42.759Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "autoExecute": true
+}}).
+2026-09-24T16:34:42.759Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:34:42.760Z [INFO] Upgrade plan confirmed successfully.
+2026-09-24T16:34:42.760Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-09-24T16:34:42.761Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-09-24T16:34:58.619Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:34:58.620Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planExecutionStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Executing the confirmed Java 25 upgrade plan."
+}}).
+2026-09-24T16:34:58.621Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:34:58.623Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:34:58.624Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:34:58.733Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:34:58.734Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planExecutionStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Executing the confirmed Java 25 upgrade plan."
+}}).
+2026-09-24T16:34:58.735Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:34:58.968Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:34:58.969Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:35:04.038Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:35:04.038Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "environmentSetup",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+  },
+  "message": "Target JDK 25.0.3 and Maven 3.9.16 are available."
+}}).
+2026-09-24T16:35:04.039Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:35:04.040Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:35:04.041Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:35:04.137Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:35:04.138Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "environmentSetup",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+  },
+  "message": "Target JDK 25.0.3 and Maven 3.9.16 are available."
+}}).
+2026-09-24T16:35:04.139Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:35:04.139Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:35:04.143Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:35:04.144Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:35:04.156Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:35:04.157Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:35:04.157Z [INFO] Project java version: 8
+2026-09-24T16:35:04.159Z [INFO] Build tool type detected from path: mvn
+2026-09-24T16:35:04.159Z [INFO] Build tool type: mvn
+2026-09-24T16:35:04.160Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "version": "8"
+}
+2026-09-24T16:35:04.160Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-24T16:35:04.161Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "OIBSIP",
+  "dir": "d:\\OIBSIP"
+}
+2026-09-24T16:35:09.008Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:35:09.008Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "baselineSetup",
+  "status": "skipped",
+  "phase": "execute",
+  "message": "Java 17 is not installed, so pre-upgrade baseline compilation and tests were skipped."
+}}).
+2026-09-24T16:35:09.009Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:35:09.010Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:35:09.011Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:35:09.145Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:35:09.146Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "baselineSetup",
+  "status": "skipped",
+  "phase": "execute",
+  "message": "Java 17 is not installed, so pre-upgrade baseline compilation and tests were skipped."
+}}).
+2026-09-24T16:35:09.146Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:35:09.148Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:35:09.149Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:35:12.726Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:35:12.727Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Target and Documentation"
+  },
+  "message": "Applying Java 25 compiler target and documentation updates."
+}}).
+2026-09-24T16:35:12.728Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:35:12.729Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:35:12.731Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:35:12.875Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:35:12.876Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Target and Documentation"
+  },
+  "message": "Applying Java 25 compiler target and documentation updates."
+}}).
+2026-09-24T16:35:12.876Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:35:12.879Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:35:12.880Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:35:22.317Z [INFO] ---------------------prepare appmod-build-java-project----------------------
+2026-09-24T16:35:22.318Z [INFO] [Tool.prepareInvocation]({name: appmod-build-java-project, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-24T16:35:22.320Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:35:22.321Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Build project"
+}}).
+2026-09-24T16:35:22.323Z [INFO] ----------------------prepared appmod-build-java-project----------------------
+2026-09-24T16:35:22.604Z [INFO] ----------------------invoke appmod-build-java-project----------------------
+2026-09-24T16:35:22.607Z [INFO] [Tool.invoke]({name: appmod-build-java-project, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-24T16:35:22.608Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:35:22.609Z [INFO] Project d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject is a maven project, try to get java version from pom.xml
+2026-09-24T16:35:22.620Z [INFO] Project java version: 25
+2026-09-24T16:35:22.623Z [INFO] Build tool type detected from path: mvn
+2026-09-24T16:35:22.624Z [INFO] Build tool type: mvn
+2026-09-24T16:35:22.626Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "version": "25"
+}
+2026-09-24T16:35:22.628Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-24T16:35:22.630Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "TrainReservationInternshipProject",
+  "dir": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject"
+}
+2026-09-24T16:35:22.675Z [INFO] [MavenBuildTool] Getting build errors of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject using Maven
+2026-09-24T16:35:22.688Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+2026-09-24T16:35:34.547Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-24T16:35:34.551Z [INFO] [MavenBuildTool] Getting all module coordinates of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:35:34.555Z [INFO] [MavenBuildTool] Getting effective POMs of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:35:34.559Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-07f3f28d-f539-4f62-b73f-6b7e96a1baa4.log
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom
+Progress (1): 778 BProgress (1): 1.7 kBProgress (1): 3.4 kBProgress (1): 6.4 kBProgress (1): 7.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom (7.6 kB at 9.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom
+Progress (1): 827 BProgress (1): 2.1 kBProgress (1): 4.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom (4.9 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom
+Progress (1): 791 BProgress (1): 1.8 kBProgress (1): 3.6 kBProgress (1): 6.2 kBProgress (1): 8.7 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom (19 kB at 231 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom
+Progress (1): 708 BProgress (1): 1.6 kBProgress (1): 4.4 kBProgress (1): 8.4 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 27 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 35 kBProgress (1): 38 kBProgress (1): 40 kBProgress (1): 43 kBProgress (1): 46 kBProgress (1): 50 kBProgress (1): 52 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom (52 kB at 746 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom
+Progress (1): 737 BProgress (1): 1.6 kBProgress (1): 3.4 kBProgress (1): 5.1 kBProgress (1): 7.2 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom (24 kB at 296 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom
+Progress (1): 908 BProgress (1): 2.2 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom (5.6 kB at 73 kB/s)
+[INFO] 
+[INFO] ------------< student.internship:train-reservation-system >-------------
+[INFO] Building train-reservation-system 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ train-reservation-system ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.15.2/maven-plugin-tools-generators-3.15.2.pom
+Progress (1): 842 BProgress (1): 2.5 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.15.2/maven-plugin-tools-generators-3.15.2.pom (3.8 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.15.2/maven-plugin-tools-3.15.2.pom
+Progress (1): 792 BProgress (1): 1.7 kBProgress (1): 3.6 kBProgress (1): 6.8 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.15.2/maven-plugin-tools-3.15.2.pom (18 kB at 215 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.0/junit-bom-5.14.0.pom
+Progress (1): 908 BProgress (1): 2.2 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.0/junit-bom-5.14.0.pom (5.7 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.19.1/jsoup-1.19.1.pom
+Progress (1): 775 BProgress (1): 1.8 kBProgress (1): 3.9 kBProgress (1): 6.4 kBProgress (1): 8.8 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 16 kBProgress (1): 20 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.19.1/jsoup-1.19.1.pom (21 kB at 194 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.pom
+Progress (1): 791 BProgress (1): 2.4 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.pom (2.8 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.5.1/plexus-interactivity-api-1.5.1.pom
+Progress (1): 1.6 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.5.1/plexus-interactivity-api-1.5.1.pom (1.7 kB at 8.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.5.1/plexus-interactivity-1.5.1.pom
+Progress (1): 1.3 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.5.1/plexus-interactivity-1.5.1.pom (1.7 kB at 2.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.pom
+Progress (1): 1.0 kBProgress (1): 3.0 kBProgress (1): 6.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.pom (6.8 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom
+Progress (1): 956 BProgress (1): 2.2 kBProgress (1): 3.2 kBProgress (1): 4.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom (4.6 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.pom
+Progress (1): 850 BProgress (1): 4.2 kBProgress (1): 7.2 kBProgress (1): 9.9 kBProgress (1): 14 kB Progress (1): 22 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.pom (24 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom
+Progress (1): 799 BProgress (1): 3.1 kBProgress (1): 5.8 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 24 kBProgress (1): 26 kBProgress (1): 30 kBProgress (1): 35 kBProgress (1): 39 kBProgress (1): 42 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom (44 kB at 330 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom
+Progress (1): 817 BProgress (1): 2.9 kBProgress (1): 6.3 kBProgress (1): 10 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom (24 kB at 197 kB/s)
+[WARNING] The POM for io.github.x-stream:mxparser:jar:1.2.2 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\Dell\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.pom: no more data available - expected end tags </plugin></plugins></build></project> to close start tag <plugin> from line 428 and start tag <plugins> from line 357 and start tag <build> from line 122 and start tag <project> from line 1, parser stopped on END_TAG seen ...</groupId>\n        <... @430:10 @ 
+
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.15.2/maven-plugin-tools-generators-3.15.2.jar
+Progress (1): 3.8/42 kBProgress (1): 8.0/42 kBProgress (1): 12/42 kB Progress (1): 16/42 kBProgress (1): 21/42 kBProgress (1): 25/42 kBProgress (1): 29/42 kBProgress (1): 33/42 kBProgress (1): 38/42 kBProgress (1): 42 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.15.2/maven-plugin-tools-generators-3.15.2.jar (42 kB at 851 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.19.1/jsoup-1.19.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.5.1/plexus-interactivity-api-1.5.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+Progress (1): 3.8/473 kBProgress (1): 8.0/473 kBProgress (1): 11/473 kB Progress (1): 16/473 kBProgress (1): 20/473 kBProgress (1): 24/473 kBProgress (1): 28/473 kBProgress (1): 33/473 kBProgress (1): 37/473 kBProgress (1): 41/473 kBProgress (1): 45/473 kBProgress (1): 62/473 kBProgress (1): 78/473 kBProgress (1): 94/473 kBProgress (1): 111/473 kBProgress (1): 126/473 kBProgress (1): 142/473 kBProgress (1): 159/473 kBProgress (1): 175/473 kBProgress (1): 192/473 kBProgress (1): 208/473 kBProgress (1): 224/473 kBProgress (1): 241/473 kBProgress (1): 257/473 kBProgress (1): 274/473 kBProgress (1): 290/473 kBProgress (1): 306/473 kBProgress (1): 323/473 kBProgress (1): 339/473 kBProgress (1): 355/473 kBProgress (1): 372/473 kBProgress (1): 388/473 kBProgress (2): 388/473 kB | 0.9/328 kBProgress (2): 388/473 kB | 2.3/328 kBProgress (2): 388/473 kB | 3.6/328 kBProgress (2): 388/473 kB | 5.0/328 kBProgress (2): 388/473 kB | 6.4/328 kBProgress (2): 388/473 kB | 7.7/328 kBProgress (2): 388/473 kB | 9.1/328 kBProgress (2): 388/473 kB | 10/328 kB Progress (2): 388/473 kB | 12/328 kBProgress (2): 388/473 kB | 13/328 kBProgress (2): 388/473 kB | 15/328 kBProgress (2): 388/473 kB | 16/328 kBProgress (2): 388/473 kB | 17/328 kBProgress (2): 388/473 kB | 19/328 kBProgress (2): 388/473 kB | 20/328 kBProgress (2): 388/473 kB | 21/328 kBProgress (3): 388/473 kB | 21/328 kB | 0.9/193 kBProgress (3): 388/473 kB | 23/328 kB | 0.9/193 kBProgress (3): 388/473 kB | 24/328 kB | 0.9/193 kBProgress (3): 388/473 kB | 24/328 kB | 2.3/193 kBProgress (3): 388/473 kB | 26/328 kB | 2.3/193 kBProgress (3): 388/473 kB | 26/328 kB | 3.6/193 kBProgress (3): 388/473 kB | 27/328 kB | 3.6/193 kBProgress (3): 388/473 kB | 28/328 kB | 3.6/193 kBProgress (3): 388/473 kB | 28/328 kB | 5.0/193 kBProgress (3): 388/473 kB | 30/328 kB | 5.0/193 kBProgress (3): 388/473 kB | 30/328 kB | 6.4/193 kBProgress (3): 388/473 kB | 31/328 kB | 6.4/193 kBProgress (3): 388/473 kB | 31/328 kB | 7.7/193 kBProgress (3): 388/473 kB | 32/328 kB | 7.7/193 kBProgress (3): 388/473 kB | 32/328 kB | 9.1/193 kBProgress (3): 388/473 kB | 34/328 kB | 9.1/193 kBProgress (3): 388/473 kB | 34/328 kB | 10/193 kB Progress (3): 388/473 kB | 35/328 kB | 10/193 kBProgress (3): 388/473 kB | 35/328 kB | 11/193 kBProgress (3): 388/473 kB | 36/328 kB | 11/193 kBProgress (3): 388/473 kB | 36/328 kB | 13/193 kBProgress (3): 388/473 kB | 38/328 kB | 13/193 kBProgress (3): 388/473 kB | 38/328 kB | 14/193 kBProgress (3): 388/473 kB | 39/328 kB | 14/193 kBProgress (3): 388/473 kB | 39/328 kB | 15/193 kBProgress (3): 388/473 kB | 39/328 kB | 17/193 kBProgress (3): 388/473 kB | 41/328 kB | 17/193 kBProgress (3): 388/473 kB | 41/328 kB | 18/193 kBProgress (3): 388/473 kB | 42/328 kB | 18/193 kBProgress (3): 388/473 kB | 42/328 kB | 20/193 kBProgress (3): 388/473 kB | 43/328 kB | 20/193 kBProgress (3): 388/473 kB | 43/328 kB | 21/193 kBProgress (3): 388/473 kB | 45/328 kB | 21/193 kBProgress (3): 388/473 kB | 45/328 kB | 22/193 kBProgress (3): 388/473 kB | 46/328 kB | 22/193 kBProgress (3): 388/473 kB | 46/328 kB | 24/193 kBProgress (3): 388/473 kB | 47/328 kB | 24/193 kBProgress (3): 388/473 kB | 49/328 kB | 24/193 kBProgress (3): 388/473 kB | 50/328 kB | 24/193 kBProgress (3): 388/473 kB | 52/328 kB | 24/193 kBProgress (3): 388/473 kB | 53/328 kB | 24/193 kBProgress (3): 388/473 kB | 53/328 kB | 25/193 kBProgress (3): 388/473 kB | 54/328 kB | 25/193 kBProgress (3): 388/473 kB | 56/328 kB | 25/193 kBProgress (3): 388/473 kB | 56/328 kB | 26/193 kBProgress (3): 388/473 kB | 60/328 kB | 26/193 kBProgress (3): 388/473 kB | 60/328 kB | 28/193 kBProgress (3): 388/473 kB | 61/328 kB | 28/193 kBProgress (3): 388/473 kB | 61/328 kB | 29/193 kBProgress (3): 388/473 kB | 61/328 kB | 31/193 kBProgress (3): 388/473 kB | 61/328 kB | 32/193 kBProgress (3): 405/473 kB | 61/328 kB | 32/193 kBProgress (3): 421/473 kB | 61/328 kB | 32/193 kBProgress (3): 437/473 kB | 61/328 kB | 32/193 kBProgress (3): 454/473 kB | 61/328 kB | 32/193 kBProgress (3): 470/473 kB | 61/328 kB | 32/193 kBProgress (3): 473 kB | 61/328 kB | 32/193 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.19.1/jsoup-1.19.1.jar (473 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.jar
+Progress (2): 65/328 kB | 32/193 kBProgress (2): 69/328 kB | 32/193 kBProgress (2): 73/328 kB | 32/193 kBProgress (2): 77/328 kB | 32/193 kBProgress (2): 82/328 kB | 32/193 kBProgress (2): 86/328 kB | 32/193 kBProgress (2): 90/328 kB | 32/193 kBProgress (2): 94/328 kB | 32/193 kBProgress (2): 94/328 kB | 33/193 kBProgress (2): 94/328 kB | 35/193 kBProgress (2): 94/328 kB | 36/193 kBProgress (2): 94/328 kB | 37/193 kBProgress (2): 94/328 kB | 39/193 kBProgress (2): 94/328 kB | 40/193 kBProgress (2): 94/328 kB | 41/193 kBProgress (2): 99/328 kB | 41/193 kBProgress (2): 99/328 kB | 43/193 kBProgress (2): 99/328 kB | 44/193 kBProgress (2): 103/328 kB | 44/193 kBProgress (2): 103/328 kB | 46/193 kBProgress (2): 103/328 kB | 47/193 kBProgress (2): 107/328 kB | 47/193 kBProgress (2): 107/328 kB | 48/193 kBProgress (2): 107/328 kB | 50/193 kBProgress (2): 107/328 kB | 51/193 kBProgress (2): 107/328 kB | 52/193 kBProgress (2): 107/328 kB | 54/193 kBProgress (2): 107/328 kB | 55/193 kBProgress (2): 107/328 kB | 59/193 kBProgress (2): 107/328 kB | 64/193 kBProgress (2): 107/328 kB | 68/193 kBProgress (2): 107/328 kB | 72/193 kBProgress (2): 107/328 kB | 76/193 kBProgress (2): 107/328 kB | 81/193 kBProgress (2): 107/328 kB | 85/193 kBProgress (2): 111/328 kB | 85/193 kBProgress (2): 111/328 kB | 89/193 kBProgress (2): 115/328 kB | 89/193 kBProgress (2): 120/328 kB | 89/193 kBProgress (2): 124/328 kB | 89/193 kBProgress (2): 128/328 kB | 89/193 kBProgress (3): 128/328 kB | 89/193 kB | 7.7/647 kBProgress (3): 128/328 kB | 89/193 kB | 15/647 kB Progress (3): 128/328 kB | 89/193 kB | 32/647 kBProgress (3): 128/328 kB | 89/193 kB | 48/647 kBProgress (3): 128/328 kB | 89/193 kB | 65/647 kBProgress (3): 128/328 kB | 89/193 kB | 81/647 kBProgress (3): 128/328 kB | 89/193 kB | 97/647 kBProgress (3): 128/328 kB | 89/193 kB | 114/647 kBProgress (3): 128/328 kB | 89/193 kB | 130/647 kBProgress (3): 132/328 kB | 89/193 kB | 130/647 kBProgress (3): 137/328 kB | 89/193 kB | 130/647 kBProgress (3): 141/328 kB | 89/193 kB | 130/647 kBProgress (3): 145/328 kB | 89/193 kB | 130/647 kBProgress (3): 149/328 kB | 89/193 kB | 130/647 kBProgress (3): 154/328 kB | 89/193 kB | 130/647 kBProgress (3): 158/328 kB | 89/193 kB | 130/647 kBProgress (3): 162/328 kB | 89/193 kB | 130/647 kBProgress (3): 166/328 kB | 89/193 kB | 130/647 kBProgress (3): 170/328 kB | 89/193 kB | 130/647 kBProgress (3): 175/328 kB | 89/193 kB | 130/647 kBProgress (3): 175/328 kB | 93/193 kB | 130/647 kBProgress (3): 179/328 kB | 93/193 kB | 130/647 kBProgress (3): 179/328 kB | 97/193 kB | 130/647 kBProgress (3): 183/328 kB | 97/193 kB | 130/647 kBProgress (3): 187/328 kB | 97/193 kB | 130/647 kBProgress (3): 187/328 kB | 102/193 kB | 130/647 kBProgress (3): 192/328 kB | 102/193 kB | 130/647 kBProgress (3): 192/328 kB | 106/193 kB | 130/647 kBProgress (3): 192/328 kB | 106/193 kB | 130/647 kBProgress (3): 196/328 kB | 106/193 kB | 130/647 kBProgress (3): 196/328 kB | 110/193 kB | 130/647 kBProgress (3): 200/328 kB | 110/193 kB | 130/647 kBProgress (3): 200/328 kB | 114/193 kB | 130/647 kBProgress (3): 200/328 kB | 119/193 kB | 130/647 kBProgress (3): 200/328 kB | 123/193 kB | 130/647 kBProgress (3): 204/328 kB | 123/193 kB | 130/647 kBProgress (3): 204/328 kB | 127/193 kB | 130/647 kBProgress (3): 204/328 kB | 131/193 kB | 130/647 kBProgress (3): 204/328 kB | 136/193 kB | 130/647 kBProgress (3): 204/328 kB | 140/193 kB | 130/647 kBProgress (3): 204/328 kB | 142/193 kB | 130/647 kBProgress (3): 204/328 kB | 147/193 kB | 130/647 kBProgress (3): 204/328 kB | 151/193 kB | 130/647 kBProgress (3): 204/328 kB | 155/193 kB | 130/647 kBProgress (3): 204/328 kB | 155/193 kB | 147/647 kBProgress (3): 204/328 kB | 155/193 kB | 163/647 kBProgress (3): 204/328 kB | 155/193 kB | 167/647 kBProgress (3): 204/328 kB | 155/193 kB | 183/647 kBProgress (3): 204/328 kB | 155/193 kB | 199/647 kBProgress (3): 204/328 kB | 155/193 kB | 216/647 kBProgress (3): 204/328 kB | 155/193 kB | 232/647 kBProgress (3): 204/328 kB | 155/193 kB | 249/647 kBProgress (3): 209/328 kB | 155/193 kB | 249/647 kBProgress (3): 213/328 kB | 155/193 kB | 249/647 kBProgress (3): 217/328 kB | 155/193 kB | 249/647 kBProgress (3): 221/328 kB | 155/193 kB | 249/647 kBProgress (3): 238/328 kB | 155/193 kB | 249/647 kBProgress (3): 238/328 kB | 159/193 kB | 249/647 kBProgress (3): 254/328 kB | 159/193 kB | 249/647 kBProgress (3): 270/328 kB | 159/193 kB | 249/647 kBProgress (3): 287/328 kB | 159/193 kB | 249/647 kBProgress (3): 287/328 kB | 159/193 kB | 265/647 kBProgress (3): 287/328 kB | 159/193 kB | 281/647 kBProgress (3): 287/328 kB | 159/193 kB | 298/647 kBProgress (3): 287/328 kB | 159/193 kB | 314/647 kBProgress (3): 287/328 kB | 159/193 kB | 331/647 kBProgress (3): 287/328 kB | 159/193 kB | 347/647 kBProgress (3): 287/328 kB | 159/193 kB | 363/647 kBProgress (3): 287/328 kB | 159/193 kB | 380/647 kBProgress (3): 287/328 kB | 159/193 kB | 396/647 kBProgress (3): 287/328 kB | 159/193 kB | 412/647 kBProgress (3): 287/328 kB | 159/193 kB | 429/647 kBProgress (3): 287/328 kB | 159/193 kB | 445/647 kBProgress (3): 287/328 kB | 159/193 kB | 462/647 kBProgress (3): 287/328 kB | 159/193 kB | 478/647 kBProgress (3): 287/328 kB | 159/193 kB | 494/647 kBProgress (3): 287/328 kB | 159/193 kB | 511/647 kBProgress (3): 287/328 kB | 159/193 kB | 527/647 kBProgress (3): 287/328 kB | 159/193 kB | 544/647 kBProgress (3): 287/328 kB | 159/193 kB | 560/647 kBProgress (3): 287/328 kB | 159/193 kB | 576/647 kBProgress (3): 287/328 kB | 159/193 kB | 593/647 kBProgress (3): 287/328 kB | 159/193 kB | 609/647 kBProgress (3): 287/328 kB | 159/193 kB | 625/647 kBProgress (3): 287/328 kB | 159/193 kB | 642/647 kBProgress (3): 287/328 kB | 159/193 kB | 647 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.jar (647 kB at 908 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar
+Progress (3): 287/328 kB | 159/193 kB | 7.7/30 kBProgress (3): 287/328 kB | 159/193 kB | 16/30 kB Progress (3): 287/328 kB | 159/193 kB | 24/30 kBProgress (3): 287/328 kB | 159/193 kB | 30 kB   Progress (3): 287/328 kB | 164/193 kB | 30 kBProgress (3): 287/328 kB | 168/193 kB | 30 kBProgress (3): 287/328 kB | 172/193 kB | 30 kBProgress (3): 287/328 kB | 176/193 kB | 30 kBProgress (3): 287/328 kB | 180/193 kB | 30 kBProgress (3): 287/328 kB | 185/193 kB | 30 kBProgress (3): 287/328 kB | 189/193 kB | 30 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar (30 kB at 39 kB/s)
+Progress (2): 303/328 kB | 189/193 kBProgress (2): 320/328 kB | 189/193 kBProgress (2): 323/328 kB | 189/193 kBProgress (2): 328 kB | 189/193 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar (328 kB at 406 kB/s)
+Progress (2): 189/193 kB | 0.9/10 kBProgress (2): 189/193 kB | 2.3/10 kBProgress (2): 189/193 kB | 3.6/10 kBProgress (2): 189/193 kB | 5.0/10 kBProgress (2): 189/193 kB | 6.4/10 kBProgress (2): 189/193 kB | 7.7/10 kBProgress (2): 189/193 kB | 9.1/10 kBProgress (2): 189/193 kB | 10 kB                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.5.1/plexus-interactivity-api-1.5.1.jar (10 kB at 8.5 kB/s)
+Progress (1): 193 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.jar (193 kB at 98 kB/s)
+Progress (1): 0.9/9.8 kBProgress (1): 2.3/9.8 kBProgress (1): 3.6/9.8 kBProgress (1): 5.0/9.8 kBProgress (1): 6.4/9.8 kBProgress (1): 7.7/9.8 kBProgress (1): 9.1/9.8 kBProgress (1): 9.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.jar (9.8 kB at 4.3 kB/s)
+[INFO] Effective-POM written to: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\effective-pom-07f3f28d-f539-4f62-b73f-6b7e96a1baa4.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.513 s
+[INFO] Finished at: 2026-09-24T22:05:49+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-24T16:35:50.213Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-24T16:35:50.227Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-24T16:35:50.230Z [INFO] [MavenBuildTool] Cleaning d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject using Maven
+2026-09-24T16:35:50.244Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-09-24T16:35:56.461Z [INFO] [MavenBuildTool] Getting Java version of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject from pom.xml
+2026-09-24T16:35:56.463Z [INFO] [MavenBuildTool] Searching for pom.xml files in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:35:56.463Z [INFO] Build succeeded! There are no build errors in the project.
+2026-09-24T16:35:56.464Z [INFO] [MavenBuildTool] Found pom.xml files: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml
+2026-09-24T16:35:56.465Z [INFO] [Tool.invoke]({result: {
+  "message": "Build succeeded! There are no build errors in the project.",
+  "result": {
+    "numOfJavaFiles": 6,
+    "numOfClassFiles": 6,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 6,
+        "numOfClassFiles": 6
+      }
+    },
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true"
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-09-24T16:35:56.466Z [INFO] ----------------------invoked appmod-build-java-project----------------------
+2026-09-24T16:35:56.469Z [INFO] [MavenBuildTool] Java version found in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml: 25
+2026-09-24T16:36:01.845Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:36:01.846Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 25 clean compilation and test compilation succeeded."
+}}).
+2026-09-24T16:36:01.847Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:36:01.848Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:36:01.849Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:36:01.980Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:36:01.980Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 25 clean compilation and test compilation succeeded."
+}}).
+2026-09-24T16:36:01.981Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:36:01.982Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:36:01.985Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:36:01.986Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:36:01.991Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:36:01.992Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:36:01.993Z [INFO] Project java version: 8

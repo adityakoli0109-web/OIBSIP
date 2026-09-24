@@ -21,7 +21,7 @@ the PNR.
 - To understand a complete small-scale application workflow.
 
 4. TECHNOLOGIES USED
-Java 17
+Java 25
 Java Swing
 JDBC
 MySQL

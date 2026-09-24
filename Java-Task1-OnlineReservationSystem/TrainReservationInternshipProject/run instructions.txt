@@ -2,7 +2,7 @@ RUN INSTRUCTIONS - TRAIN RESERVATION SYSTEM
 
 STEP 1 - REQUIREMENTS
 Install:
-- JDK 17+
+- JDK 25+
 - MySQL Server
 - VS Code with Extension Pack for Java (or another Java IDE)
 - Maven (optional if Maven is already integrated into the IDE)
