@@ -77,7 +77,7 @@ public class ResultFrame extends JFrame {
 
         JLabel nameLabel =
                 new JLabel(
-                        "Student: " +
+                        "Student Name: " +
                         user.getDisplayName()
                 );
 

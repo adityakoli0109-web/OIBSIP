@@ -489,3 +489,919 @@ Progress (1): 0.9/9.8 kBProgress (1): 2.3/9.8 kBProgress (1): 3.6/9.8 kBProgr
 2026-09-24T16:36:01.991Z [INFO] Try to get java version from gradle config files: 
 2026-09-24T16:36:01.992Z [INFO] Try to get java version from gradle properties: undefined
 2026-09-24T16:36:01.993Z [INFO] Project java version: 8
+2026-09-24T16:36:11.666Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:36:11.667Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Target and Documentation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Java target and documentation updates completed; clean compilation succeeded."
+}}).
+2026-09-24T16:36:11.669Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:36:11.670Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:36:11.671Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:36:11.814Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:36:11.816Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Target and Documentation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Java target and documentation updates completed; clean compilation succeeded."
+}}).
+2026-09-24T16:36:11.817Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:36:11.818Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:36:11.822Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:36:11.822Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:36:11.827Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:36:11.828Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:36:11.829Z [INFO] Project java version: 8
+2026-09-24T16:36:12.024Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:36:12.029Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:36:12.030Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:36:15.607Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:36:15.608Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "message": "Running the full Java 25 test suite."
+}}).
+2026-09-24T16:36:15.609Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:36:15.610Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:36:15.610Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:36:15.790Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:36:15.791Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "message": "Running the full Java 25 test suite."
+}}).
+2026-09-24T16:36:15.792Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:36:15.793Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:36:15.794Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:36:19.065Z [INFO] ---------------------prepare appmod-run-tests-for-java----------------------
+2026-09-24T16:36:19.066Z [INFO] [Tool.prepareInvocation]({name: appmod-run-tests-for-java, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-24T16:36:19.067Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:36:19.068Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Run tests"
+}}).
+2026-09-24T16:36:19.069Z [INFO] ----------------------prepared appmod-run-tests-for-java----------------------
+2026-09-24T16:36:19.485Z [INFO] ----------------------invoke appmod-run-tests-for-java----------------------
+2026-09-24T16:36:19.493Z [INFO] [Tool.invoke]({name: appmod-run-tests-for-java, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-24T16:36:19.494Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:36:19.496Z [INFO] Project d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject is a maven project, try to get java version from pom.xml
+2026-09-24T16:36:19.510Z [INFO] Project java version: 25
+2026-09-24T16:36:19.513Z [INFO] Build tool type detected from path: mvn
+2026-09-24T16:36:19.515Z [INFO] Build tool type: mvn
+2026-09-24T16:36:19.517Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "version": "25"
+}
+2026-09-24T16:36:19.518Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-24T16:36:19.524Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "TrainReservationInternshipProject",
+  "dir": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject"
+}
+2026-09-24T16:36:19.526Z [INFO] Building project before running tests...
+2026-09-24T16:36:19.527Z [INFO] [MavenBuildTool] Getting build errors of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject using Maven
+2026-09-24T16:36:19.530Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+2026-09-24T16:36:30.140Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-24T16:36:30.145Z [INFO] [MavenBuildTool] Getting all module coordinates of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:36:30.146Z [INFO] [MavenBuildTool] Getting effective POMs of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:36:30.151Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-d5b40603-1702-4b4b-aa2c-acf85027c349.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< student.internship:train-reservation-system >-------------
+[INFO] Building train-reservation-system 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ train-reservation-system ---
+[INFO] Effective-POM written to: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\effective-pom-d5b40603-1702-4b4b-aa2c-acf85027c349.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.760 s
+[INFO] Finished at: 2026-09-24T22:06:39+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-24T16:36:39.223Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-24T16:36:39.238Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-24T16:36:39.239Z [INFO] [MavenBuildTool] Cleaning d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject using Maven
+2026-09-24T16:36:39.243Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-09-24T16:36:43.730Z [INFO] Running tests...
+2026-09-24T16:36:43.731Z [INFO] [MavenBuildTool] Running test cases of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject using Maven
+2026-09-24T16:36:43.734Z [INFO] [Environment] Running command (Java undefined): mvn clean test -q -B -fn
+2026-09-24T16:36:58.420Z [INFO] [MavenBuildTool] loading surefire reports.
+2026-09-24T16:36:58.430Z [INFO] [MavenBuildTool] summarizing surefire reports.
+2026-09-24T16:36:58.431Z [INFO] [Tool.invoke]({result: {
+  "message": "All tests passed! There are no test errors/failures in the project.",
+  "result": {
+    "errors": [],
+    "failures": [],
+    "summary": {
+      "tests": 0,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "reports": []
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-09-24T16:36:58.432Z [INFO] ----------------------invoked appmod-run-tests-for-java----------------------
+2026-09-24T16:37:02.946Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:37:02.947Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "testCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Full Maven test run passed on Java 25; no test failures were reported."
+}}).
+2026-09-24T16:37:02.947Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:37:02.948Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:37:02.948Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:37:03.062Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:37:03.063Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "testCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Full Maven test run passed on Java 25; no test failures were reported."
+}}).
+2026-09-24T16:37:03.063Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:37:03.064Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:37:03.065Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:37:08.205Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:37:08.206Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Full Java 25 test validation passed."
+}}).
+2026-09-24T16:37:08.207Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:37:08.208Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:37:08.209Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:37:08.375Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:37:08.375Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Full Java 25 test validation passed."
+}}).
+2026-09-24T16:37:08.376Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:37:08.377Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:37:08.379Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:37:08.380Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:37:08.582Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:37:08.585Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:37:08.587Z [INFO] Project java version: 8
+2026-09-24T16:37:08.625Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:37:08.631Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:37:08.631Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:38:17.311Z [INFO] ---------------------prepare appmod-validate-cves-for-java----------------------
+2026-09-24T16:38:17.312Z [INFO] [Tool.prepareInvocation]({name: appmod-validate-cves-for-java, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "dependencies": [
+    "com.mysql:mysql-connector-j:9.4.0"
+  ]
+}}).
+2026-09-24T16:38:17.312Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:38:17.313Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Validate CVEs"
+}}).
+2026-09-24T16:38:17.314Z [INFO] ----------------------prepared appmod-validate-cves-for-java----------------------
+2026-09-24T16:38:17.407Z [INFO] ----------------------invoke appmod-validate-cves-for-java----------------------
+2026-09-24T16:38:17.407Z [INFO] [Tool.invoke]({name: appmod-validate-cves-for-java, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "dependencies": [
+    "com.mysql:mysql-connector-j:9.4.0"
+  ]
+}}).
+2026-09-24T16:38:17.408Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:38:17.409Z [INFO] Project d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject is a maven project, try to get java version from pom.xml
+2026-09-24T16:38:17.410Z [INFO] Getting CVEs for dependencies: com.mysql:mysql-connector-j:9.4.0
+2026-09-24T16:38:17.410Z [INFO] getting CVEs for dependencies:
+ - com.mysql:mysql-connector-j:9.4.0...
+2026-09-24T16:38:17.411Z [INFO] getting gitHub access token...
+2026-09-24T16:38:17.414Z [INFO] Project java version: 25
+2026-09-24T16:38:17.415Z [INFO] Maven project detected.
+2026-09-24T16:38:17.415Z [INFO] Build tool type: mvn
+2026-09-24T16:38:17.443Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+  "version": "25"
+}
+2026-09-24T16:38:17.449Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+  "version": "",
+  "source": "PATH"
+}
+2026-09-24T16:38:17.450Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dell\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "TrainReservationInternshipProject",
+  "dir": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject"
+}
+2026-09-24T16:38:17.452Z [INFO] [MavenBuildTool] Getting all module coordinates of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:17.453Z [INFO] [MavenBuildTool] Getting effective POMs of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:17.454Z [INFO] [MavenBuildTool] Getting Java version of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject from pom.xml
+2026-09-24T16:38:17.455Z [INFO] [MavenBuildTool] Searching for pom.xml files in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:17.455Z [INFO] [MavenBuildTool] Getting all module coordinates of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:17.456Z [INFO] [MavenBuildTool] Getting effective POMs of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:17.459Z [INFO] [Environment] Running command (Java undefined): mvn dependency:tree -B
+2026-09-24T16:38:17.503Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-3a7de337-a806-4a6c-adee-2347099f4a3c.log
+2026-09-24T16:38:17.563Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-7f95999d-0997-45af-8791-426afac21d5c.log
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< student.internship:train-reservation-system >-------------
+[INFO] Building train-reservation-system 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.0:tree (default-cli) @ train-reservation-system ---
+[INFO] 
+[INFO] ------------< student.internship:train-reservation-system >-------------
+[INFO] Building train-reservation-system 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ train-reservation-system ---
+[INFO] 
+[INFO] ------------< student.internship:train-reservation-system >-------------
+[INFO] Building train-reservation-system 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ train-reservation-system ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.pom
+[INFO] Effective-POM written to: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\effective-pom-7f95999d-0997-45af-8791-426afac21d5c.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.057 s
+[INFO] Finished at: 2026-09-24T22:08:24+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-24T16:38:24.700Z [INFO] [MavenBuildTool] Found pom.xml files: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml
+2026-09-24T16:38:24.703Z [INFO] [MavenBuildTool] Java version found in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml: 25
+[INFO] Effective-POM written to: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\effective-pom-3a7de337-a806-4a6c-adee-2347099f4a3c.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.264 s
+[INFO] Finished at: 2026-09-24T22:08:24+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.pom (1.5 kB at 1.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.12.0/doxia-1.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.12.0/doxia-1.12.0.pom (18 kB at 463 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.pom (1.5 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.pom (3.8 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.pom (1.6 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.11.1/doxia-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.11.1/doxia-1.11.1.pom (18 kB at 487 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.pom (1.6 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.pom (7.6 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.pom (3.4 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.11.1/doxia-sitetools-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.11.1/doxia-sitetools-1.11.1.pom (14 kB at 388 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom (750 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom (4.8 kB at 150 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom (23 kB at 608 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom (7.8 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom (28 kB at 829 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.pom (4.5 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom (750 B at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom (4.8 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom (28 kB at 797 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom (78 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (15 kB at 553 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.pom (20 kB at 601 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom (31 kB at 909 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom (78 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom (23 kB at 726 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom (5.6 kB at 182 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom (6.6 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom (16 kB at 496 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom (35 kB at 826 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom (5.0 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom (13 kB at 387 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom (19 kB at 662 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom (56 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 423 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom (5.0 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.14/httpcomponents-core-4.4.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.14/httpcomponents-core-4.4.14.pom (13 kB at 286 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.pom (6.0 kB at 201 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom (2.4 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (9.3 kB at 283 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 kB at 727 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (14 kB at 451 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom (1.4 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom (9.6 kB at 276 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom (32 kB at 930 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom (4.5 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.pom (2.1 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom (3.0 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (8.2 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom (2.7 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.pom (7.7 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.pom (3.0 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.pom (2.0 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.11.1/doxia-modules-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.11.1/doxia-modules-1.11.1.pom (2.7 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.pom (2.0 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom (2.8 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom (2.7 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 652 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 366 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.pom (6.1 kB at 156 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom (11 kB at 265 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (13 kB at 329 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom (22 kB at 510 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (14 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom (18 kB at 467 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom (357 B at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom (866 B at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom (7.0 kB at 175 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom (6.2 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 4.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom (167 B at 5.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom (6.0 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.pom (974 B at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom (2.3 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom (163 B at 5.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom (171 B at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom (3.3 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (2.2 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.pom (11 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom (142 B at 4.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom (140 B at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom (11 kB at 279 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom (12 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom (62 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom (15 kB at 440 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom (6.0 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.pom (3.9 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom (20 kB at 526 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.pom (22 kB at 639 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/66/commons-parent-66.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/66/commons-parent-66.pom (77 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.pom (16 kB at 461 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (15 kB at 355 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.pom (2.0 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom (2.0 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom (3.7 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 760 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom (5.6 kB at 166 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.14.1/maven-dependency-analyzer-1.14.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.14.1/maven-dependency-analyzer-1.14.1.pom (6.4 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.25.3/assertj-bom-3.25.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.25.3/assertj-bom-3.25.3.pom (3.7 kB at 105 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.pom (2.4 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.pom (7.0 kB at 206 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.pom (5.3 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/37/maven-shared-components-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/37/maven-shared-components-37.pom (4.9 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom (46 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 582 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom (11 kB at 304 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom (5.3 kB at 160 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom (5.1 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom (3.9 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom (22 kB at 591 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 kB at 546 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom (13 kB at 376 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom (2.3 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (5.4 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (3.1 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (2.6 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (1.2 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (7.8 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 kB at 326 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom (815 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom (4.2 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom (17 kB at 482 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom (4.0 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 kB at 559 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (5.5 kB at 160 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 kB at 316 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom (5.0 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom (4.6 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom (13 kB at 403 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.jar (12 kB at 386 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.jar (20 kB at 591 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.jar (12 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar (502 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar (251 kB at 685 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar (62 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar (780 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar (47 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar (328 kB at 471 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar (65 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar (85 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar (17 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar (16 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar (8.1 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar (18 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (262 kB at 246 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar (450 kB at 412 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar (189 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar (11 kB at 8.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar (144 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar (347 kB at 267 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar (90 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar (65 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar (457 kB at 313 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar (225 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar (501 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar (588 kB at 304 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar (365 kB at 184 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (58 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar (116 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar (1.1 MB at 484 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar (193 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar (79 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar (93 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.14.1/maven-dependency-analyzer-1.14.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.14.1/maven-dependency-analyzer-1.14.1.jar (42 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar (12 kB at 5.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar (60 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar (58 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.jar (43 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar (4.2 kB at 1.6 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar (159 kB at 61 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar (125 kB at 48 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar (218 kB at 65 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar (6.8 MB at 1.4 MB/s)
+[INFO] student.internship:train-reservation-system:jar:1.0
+[INFO] \- com.mysql:mysql-connector-j:jar:9.4.0:compile
+[INFO]    \- com.google.protobuf:protobuf-java:jar:4.31.1:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.386 s
+[INFO] Finished at: 2026-09-24T22:08:41+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-24T16:38:41.947Z [INFO] [MavenBuildTool] Successfully got dependency tree of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:41.949Z [INFO] [MavenBuildTool] Getting Java version of d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject from pom.xml
+2026-09-24T16:38:41.950Z [INFO] [MavenBuildTool] Searching for pom.xml files in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject
+2026-09-24T16:38:41.950Z [INFO] [MavenBuildTool] Found pom.xml files: d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml
+2026-09-24T16:38:41.952Z [INFO] [MavenBuildTool] Java version found in d:\OIBSIP\Java-Task1-OnlineReservationSystem\TrainReservationInternshipProject\pom.xml: 25
+2026-09-24T16:39:27.027Z [INFO] Processing batch 1/1, size: 1
+2026-09-24T16:39:27.029Z [INFO] Proxy configuration: HTTPS_PROXY=(not set), HTTP_PROXY=(not set), NO_PROXY=(not set), NODE_EXTRA_CA_CERTS=(not set), vscode http.proxy=(not set), hasProxy=false
+2026-09-24T16:39:27.029Z [INFO] No proxy detected, using direct connection.
+2026-09-24T16:39:27.033Z [INFO] listing CVEs from GitHub for dependencies [
+  "com.mysql:mysql-connector-j:9.4.0"
+]
+2026-09-24T16:39:27.033Z [INFO] GitHub Advisory API affects parameter: ["com.mysql:mysql-connector-j@9.4.0"]
+2026-09-24T16:39:28.368Z [INFO] Fetched 0 total advisories across all pages
+2026-09-24T16:39:28.370Z [INFO] Advisory IDs returned: 
+2026-09-24T16:39:28.373Z [INFO] grouping CVEs and finding max patched version by dep...
+2026-09-24T16:39:28.374Z [INFO] done getting 0 CVEs for 1 dependencies
+2026-09-24T16:39:28.376Z [INFO] calculating patched version by dep...
+2026-09-24T16:39:28.378Z [INFO] finished getting CVEs for dependencies.
+2026-09-24T16:39:28.379Z [INFO] Found 0 dependencies with known CVEs
+2026-09-24T16:39:28.385Z [INFO] No known CVEs that need to be fixed are found for dependencies: com.mysql:mysql-connector-j:9.4.0
+2026-09-24T16:39:28.387Z [INFO] [Tool.invoke]({result: {
+  "message": "No known CVEs that need to be fixed are found for the given dependencies."
+}}).
+2026-09-24T16:39:28.389Z [INFO] ----------------------invoked appmod-validate-cves-for-java----------------------
+2026-09-24T16:40:05.466Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:40:05.467Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "CVE Validation and Fix"
+  },
+  "message": "Scanning direct dependencies for known CVEs."
+}}).
+2026-09-24T16:40:05.468Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:40:05.470Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:40:05.471Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:40:05.648Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:40:05.649Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "CVE Validation and Fix"
+  },
+  "message": "Scanning direct dependencies for known CVEs."
+}}).
+2026-09-24T16:40:05.649Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:40:05.651Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:40:05.651Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:40:08.001Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:40:08.002Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "CVE Validation and Fix",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "No known CVEs requiring fixes were found."
+}}).
+2026-09-24T16:40:08.002Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:40:08.005Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:40:08.007Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:40:08.158Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:40:08.159Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeStepCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "CVE Validation and Fix",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "No known CVEs requiring fixes were found."
+}}).
+2026-09-24T16:40:08.160Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:40:08.161Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:40:08.164Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:40:08.165Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:40:08.341Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:40:08.342Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:40:08.343Z [INFO] Project java version: 8
+2026-09-24T16:40:08.370Z [INFO] Project d:\OIBSIP is not a maven project, try to get java version from gradle
+2026-09-24T16:40:08.379Z [INFO] Try to get java version from gradle config files: 
+2026-09-24T16:40:08.380Z [INFO] Try to get java version from gradle properties: undefined
+2026-09-24T16:40:20.847Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:40:20.849Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeValidationCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Java 25 compilation and full test validation succeeded."
+}}).
+2026-09-24T16:40:20.850Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:40:20.851Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:40:20.852Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:40:21.010Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:40:21.011Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "upgradeValidationCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "3ef154a12cb0df007ed3e552732ef06cfcca7c15"
+  },
+  "message": "Java 25 compilation and full test validation succeeded."
+}}).
+2026-09-24T16:40:21.012Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:40:21.013Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:40:21.014Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:40:23.259Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:40:23.259Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "summaryGenerated",
+  "status": "succeeded",
+  "phase": "summarize",
+  "message": "Java 17 to Java 25 upgrade completed with successful compilation, tests, and CVE validation."
+}}).
+2026-09-24T16:40:23.260Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:40:23.261Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:40:23.261Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:40:23.417Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:40:23.417Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "summaryGenerated",
+  "status": "succeeded",
+  "phase": "summarize",
+  "message": "Java 17 to Java 25 upgrade completed with successful compilation, tests, and CVE validation."
+}}).
+2026-09-24T16:40:23.418Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:40:23.420Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:40:23.420Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-24T16:40:26.169Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-24T16:40:26.170Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planExecutionCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "All Java 25 upgrade success criteria were met; baseline was skipped because Java 17 is unavailable."
+}}).
+2026-09-24T16:40:26.171Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-24T16:40:26.173Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-24T16:40:26.174Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-24T16:40:26.330Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-24T16:40:26.331Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260924163341",
+  "projectPath": "d:\\OIBSIP\\Java-Task1-OnlineReservationSystem\\TrainReservationInternshipProject",
+  "event": "planExecutionCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "All Java 25 upgrade success criteria were met; baseline was skipped because Java 17 is unavailable."
+}}).
+2026-09-24T16:40:26.332Z [INFO] [Tool.invoke] do invoke.
+2026-09-24T16:40:26.336Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260924163341,\nSession Dir: d:\\OIBSIP\\.github\\modernize\\java-upgrade\\20260924163341"
+}}).
+2026-09-24T16:40:26.337Z [INFO] ----------------------invoked appmod-report-event----------------------

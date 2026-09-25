@@ -1,8 +1,8 @@
 import java.awt.*;
 import java.sql.*;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
+import java.time.ZoneId;
+import com.toedter.calendar.JDateChooser;
 import javax.swing.*;
 
 public class ReservationForm extends JFrame {
@@ -10,7 +10,7 @@ public class ReservationForm extends JFrame {
     private JTextField passengerField;
     private JTextField trainNumberField;
     private JTextField trainNameField;
-    private JTextField dateField;
+    private JDateChooser dateField;
     private JTextField sourceField;
     private JTextField destinationField;
 
@@ -38,7 +38,8 @@ public class ReservationForm extends JFrame {
         trainNameField = new JTextField();
         trainNameField.setEditable(false);
 
-        dateField = new JTextField();
+        dateField = new JDateChooser();
+        dateField.setDateFormatString("yyyy-MM-dd");
         sourceField = new JTextField();
         destinationField = new JTextField();
 
@@ -152,12 +153,11 @@ public class ReservationForm extends JFrame {
         String trainNumberText = trainNumberField.getText().trim();
         String trainName = trainNameField.getText().trim();
         String classType = (String) classBox.getSelectedItem();
-        String dateText = dateField.getText().trim();
         String source = sourceField.getText().trim();
         String destination = destinationField.getText().trim();
 
         if (passenger.isEmpty() || trainNumberText.isEmpty()
-                || trainName.isEmpty() || dateText.isEmpty()
+            || trainName.isEmpty() || dateField.getDate() == null
                 || source.isEmpty() || destination.isEmpty()) {
             JOptionPane.showMessageDialog(this,
                     "Please fill all required fields.",
@@ -193,17 +193,9 @@ public class ReservationForm extends JFrame {
             return;
         }
 
-        LocalDate journeyDate;
-        try {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-            journeyDate = LocalDate.parse(dateText, formatter);
-        } catch (DateTimeParseException ex) {
-            JOptionPane.showMessageDialog(this,
-                    "Enter date in yyyy-MM-dd format.",
-                    "Validation",
-                    JOptionPane.WARNING_MESSAGE);
-            return;
-        }
+        LocalDate journeyDate = dateField.getDate().toInstant()
+            .atZone(ZoneId.systemDefault())
+            .toLocalDate();
 
         String pnr = createPNR();
 
@@ -262,7 +254,7 @@ public class ReservationForm extends JFrame {
         passengerField.setText("");
         trainNumberField.setText("");
         trainNameField.setText("");
-        dateField.setText("");
+        dateField.setDate(null);
         sourceField.setText("");
         destinationField.setText("");
         classBox.setSelectedIndex(0);

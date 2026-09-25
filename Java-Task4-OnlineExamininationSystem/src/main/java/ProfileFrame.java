@@ -181,6 +181,10 @@ public class ProfileFrame extends JFrame {
         // Start exam
         startButton.addActionListener(e -> {
 
+                        if (!saveProfile()) {
+                                return;
+                        }
+
             dispose();
 
             new ExamFrame(user);
@@ -199,6 +203,18 @@ public class ProfileFrame extends JFrame {
 
     private void updateProfile() {
 
+                if (!saveProfile()) {
+                        return;
+                }
+
+                JOptionPane.showMessageDialog(
+                                this,
+                                "Profile updated successfully."
+                );
+        }
+
+        private boolean saveProfile() {
+
         String name =
                 nameField.getText().trim();
 
@@ -215,15 +231,12 @@ public class ProfileFrame extends JFrame {
                     "Fields cannot be empty."
             );
 
-            return;
+                        return false;
         }
 
         user.setDisplayName(name);
         user.setPassword(password);
 
-        JOptionPane.showMessageDialog(
-                this,
-                "Profile updated successfully."
-        );
+                return true;
     }
 }
